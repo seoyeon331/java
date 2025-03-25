@@ -1,0 +1,23 @@
+package ex02_switch;
+
+public class Ex01_switch {
+	public static void main(String[] args) {
+		//switch문으로 비교값으로 사용 가능한 자료형 -> 정수, 문자형, 문자열
+		
+		int num = 7;
+		switch(num) {
+			case 1:
+				System.out.println("num은 1입니다.");
+				break;
+			case 7:
+				System.out.println("num은 7입니다.");
+				break;
+			default :
+				System.out.println("num은 1도 7도 아닙니다.");
+		
+		}
+		
+		
+		
+	}
+}

@@ -1,0 +1,13 @@
+package ex05_Scanner;
+
+public class Ex01_operator {
+
+	public static void main(String[] args) {
+		//부호연산자
+		int x = 100;
+		int resultPlus = +x;  // +100
+		int resultMinus = -x; // -100
+		System.out.println(resultPlus);
+		System.out.println(resultMinus);
+	}
+}

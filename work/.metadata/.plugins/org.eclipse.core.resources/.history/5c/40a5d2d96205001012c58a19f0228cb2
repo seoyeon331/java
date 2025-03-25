@@ -1,0 +1,11 @@
+package ex06_operator;
+
+public class Ex02_operator {
+	public static void main(String[] args) {
+		
+		//오버플로우 발생
+		int result = 1000000 * 1000000;
+		System.out.println(result);
+		
+	}
+}

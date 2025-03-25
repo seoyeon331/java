@@ -1,0 +1,8 @@
+package ex02_switch;
+
+public class Ex02_switch {
+	public static void main(String[] args) {
+		//switch에 break가 없는 경우
+		//
+	}
+}

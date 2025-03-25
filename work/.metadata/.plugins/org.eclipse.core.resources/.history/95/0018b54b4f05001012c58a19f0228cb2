@@ -1,0 +1,7 @@
+package ex04_casting;
+
+public class Ex01_casting {
+	public static void main(String[] args) {
+		
+	}
+}

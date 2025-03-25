@@ -1,0 +1,21 @@
+package ex01_if;
+
+public class Exam1 {
+	public static void main(String[] args) {
+		// 삼항 연산자로 만들었던 x개의 농구공을 담기 위한 박스의 개수 구하기
+		
+		int x = 14;
+		int box;
+		
+		if(x % 5 == 0) {
+			box = x/5;
+		} else {
+			box = (x/5) +1;
+		}
+		System.out.printf("박스의 개수는 %d개 필요합니다,\n", box);
+		
+		
+		
+		
+	}
+}

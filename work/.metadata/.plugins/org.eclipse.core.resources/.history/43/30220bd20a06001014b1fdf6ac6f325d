@@ -1,0 +1,37 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Ex01_random {
+	public static void main(String[] args) {
+		
+		int randomNum = (int)(Math.random() * 50) + 1;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i = 0; i < 10; i++) {
+			System.out.println("숫자를 맞춰보세요~! : ");
+			int guess = sc.nextInt();
+			
+			if(guess == randomNum) {
+				System.out.println("정답입니다!");
+			} else if(guess < randomNum) {
+				System.out.println("땡! 숫자는 더 큽니다.");
+			} else if(guess > randomNum) {
+				System.out.println("땡! 숫자는 더 작습니다.");
+			} 
+			
+			
+				
+				
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,15 @@
+package ex02_datatype;
+
+public class Ex01_dataType {
+	public static void main(String[] args) {
+		// 자료형(기본자료형)
+		// 자바가 처리할 수 있는 데이터의 종류
+		// 논리형 boolean 1bit  -> true, false
+		// 문자형 char    2byte
+		// 정수형 byte    1byte
+		//      short   2byte
+		// 		int     4byte
+		// 		long    8byte
+		
+	}
+}
