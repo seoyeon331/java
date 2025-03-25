@@ -98,5 +98,14 @@ public class Ex02_arrays {
 		arr3[0] = new int[2];
 		arr3[1] = new int[3];
 		arr3[2] = new int[1];
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
