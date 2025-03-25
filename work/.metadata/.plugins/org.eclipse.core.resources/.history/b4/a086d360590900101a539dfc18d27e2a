@@ -1,0 +1,140 @@
+package ex04_exam;
+
+public class MethodTest {
+	
+		 
+		//배열의 최대값을 찾는 maxFinder메서드
+		//임의의 배열은 매개변수로 받자
+		
+		public void max(int[] arr) {
+			
+			int maxNum = arr[0];
+			
+			for(int i = 0; i < arr.length; i++) {
+				if(arr[i] > maxNum) {
+					maxNum = arr[i];
+				}
+			}
+			System.out.printf("최대값은 %d입니다.", maxNum);
+		}
+		
+	    //향상된 for문 사용
+//		for(i : arr) {
+//			if(i > maxNum) {
+//				maxNum = i;
+//			}
+//		}
+	
+		//원의 넓이와 둘레 구하기
+		//함수를 호출하면서 반지름을 받는다
+		//원의 넓이를 구하는 circleArea
+		//원의 둘레를 구하는 circleRound
+		//circleArea 결과 출력
+		//circleRound 결과 반환
+		//원의 넓이 : 3.14 * r * r
+		//원의 둘레 : 2 * 3.14 * r
+		
+		public void circleArea(int r) {
+			double area = 3.14 * r * r;
+			System.out.println("원의 넓이 : " + area);
+		}
+		
+		public double circleRound(int r) {
+			double round = 2 * 3.14 * r;
+			return round;
+		}
+		
+		
+		//계산기 만들기
+		//사칙연산을 할 수 있는 calculator메서드 만들기
+		//두 수와 연산자를 매개변수로 받는다
+		
+		public void calculator(int a, int b, char x) {
+			int result = 0;
+			
+			switch(x) {
+			
+			case '+' : result = a + b;
+				break;
+			case '-' : result = a - b;
+				break;
+			case '*' : result = a * b;
+				break;
+			case '/' : result = a / b;
+				break;
+			}
+			System.out.println(result);
+			
+		}
+			
+			
+		//1~50사이의 난수를 생성
+		//메인함수에서 키보드를 통해 정수를 입력받는다
+		//check()메서드를 만들어서 사용자가 입력한 숫자를 판단
+		//발생한 난수보다 크다면 DOWN! 작다면 UP!을 출력
+		//사용자가 입력한 숫자와 발생한 난수가 같은경우에
+		//프로그램을 종료
+		//몇회만에 맞췄는지 알려주자
+		
+	
+		int count = 1;
+		
+		public void check(int x) {
+			int random = (int)(Math.random()*50) + 1;
+			
+			if(x > random) {
+				System.out.println("DOWN!");
+			}else if(x < random) {
+				System.out.println("UP!");
+			}
+			
+			count++;
+			
+			System.out.printf("%d회만에 맞췄습니다.", count);
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+			
+			
+			
+		}
+		
+					
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

@@ -1,0 +1,49 @@
+package ex04_exam;
+
+import java.util.Scanner;
+
+public class MethodMain {
+
+	public static void main(String[] args) {
+		
+		MethodTest test = new MethodTest();
+		
+		int[] arr = {1,2,3,4,5};
+		
+		test.max(arr);
+		
+		System.out.println();
+		
+		test.circleArea(3);
+		System.out.println("원의 둘레 : " + test.circleRound(3));
+		
+		test.calculator(3,5,'+');
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("정수를 입력하세요 : ");
+		
+		test.check(sc.nextInt());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,21 @@
+package ex03_class;
+
+public class ClassMain {
+	public static void main(String[] args) {
+		
+		//자동차 객체 만들기
+		Car car = new Car();
+		//클래스에 선언된 필드를 사용하는법
+		
+		System.out.println(car.wheel);
+		
+		//객체를 만들 때 초기화
+		//정수는 0
+		//실수는 0.0
+		//배열, 다른 클래스는 null
+		
+		
+		
+		
+	}
+}

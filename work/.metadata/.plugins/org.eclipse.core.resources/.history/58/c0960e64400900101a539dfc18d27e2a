@@ -1,0 +1,10 @@
+package ex03_class;
+
+public class Car {
+	
+	int wheel = 4; //필드 선언
+	int door = 4;
+	int window = 4; 
+	String brand = "현대";
+	int price = 4000;
+}

@@ -1,0 +1,20 @@
+package ex04_exam;
+
+public class MethodMain {
+
+	public static void main(String[] args) {
+		
+		MethodTest test = new MethodTest();
+		
+		int[] arr = {1,2,3,4,5};
+		
+		test.max(arr);
+		
+		
+		
+		
+		
+	}
+	
+	
+}

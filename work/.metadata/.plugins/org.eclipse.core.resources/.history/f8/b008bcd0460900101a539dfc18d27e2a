@@ -1,0 +1,12 @@
+package ex03_class;
+
+public class Family {
+
+	String name;
+	int age;
+	String address = "서울";
+	
+
+	
+	
+}

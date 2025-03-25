@@ -1,0 +1,35 @@
+package ex03_class;
+
+public class ClassMain {
+	public static void main(String[] args) {
+		
+		//자동차 객체 만들기
+		Car car = new Car();
+		//클래스에 선언된 필드를 사용하는법
+		
+		System.out.println(car.wheel);
+		
+		//객체를 만들 때 초기화
+		//정수는 0
+		//실수는 0.0
+		//배열, 다른 클래스는 null
+		
+		//구현한 메서드를 사용하는 방법은 필드의 사용법과 동일
+		//다른 클래스에서 메서드를 사용하려면 객체를 생성한 후
+		//참조변수를 이용해 그 객체의 메서드를 사용해야 한다
+		
+		car.ride();
+		
+		Family father = new Family();
+		Family son = new Family();
+		
+		//정적변수는 클래스명.필드명을 통해 대입이나 출력을 한다
+		//static은 클래스이름을 통해서 접근한다!
+		Family.address = "인천";
+		
+		
+		
+		
+		
+	}
+}

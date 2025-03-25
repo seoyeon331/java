@@ -1,0 +1,10 @@
+package ex03_class;
+
+public class ClassMain {
+	public static void main(String[] args) {
+		
+		//자동차 객체 만들기
+		Car car = new Car();
+		
+	}
+}

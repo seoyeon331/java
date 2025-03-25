@@ -1,26 +1,90 @@
-0:00:00 Startup
-0:00:00 Microsoft.DeleteProfileHelper.CleanUpEphemeralProfiles
-0:00:00 Microsoft.DeleteProfileHelper.CleanUpDeletedProfiles
-0:00:00 Microsoft.NewBrowser_Popup
-0:00:00 Microsoft.BrowserList.AddBrowser
-0:00:00 Browser1 Insert active Tab1 at 0
-0:00:00 Tab1 StartNav1 #auto_toplevel
-0:00:00 Tab1 FinishNav1
-0:00:00 Tab1 PageLoad
-0:00:00 Tab1 StartNav2 #typed
-0:00:00 Tab1 FinishNav2
-0:00:01 Tab1 PageLoad
-0:00:40 Microsoft.Shutdown.OnWindowClosing
-0:00:00 Startup
-0:00:00 Microsoft.DeleteProfileHelper.CleanUpEphemeralProfiles
-0:00:00 Microsoft.DeleteProfileHelper.CleanUpDeletedProfiles
-0:00:00 Microsoft.NewBrowser_Popup
-0:00:00 Microsoft.BrowserList.AddBrowser
-0:00:00 Browser1 Insert active Tab1 at 0
-0:00:00 Tab1 StartNav1 #auto_toplevel
-0:00:00 Tab1 StartNav2 #typed
-0:00:00 Tab1 FinishNav1
-0:00:00 Tab1 PageLoad
-0:00:00 Tab1 FinishNav2
-0:00:00 Tab1 PageLoad
-0:00:22 Tab1 StartNav3 #renderer-user #link
+4:21:00 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+4:21:00 Microsoft.Browser_Removed
+4:21:15 Microsoft.NewBrowser_Popup
+4:21:15 Microsoft.BrowserList.AddBrowser
+4:21:15 Browser25 Insert active Tab25 at 0
+4:21:15 Tab25 StartNav361 #auto_toplevel
+4:21:15 Tab25 StartNav362 #typed
+4:21:15 Tab25 FinishNav361
+4:21:15 Tab25 PageLoad
+4:21:15 Tab25 FinishNav362
+4:21:15 Tab25 PageLoad
+4:21:16 Tab25 StartNav363 #typed
+4:21:16 Tab25 FinishNav363
+4:21:16 Tab25 PageLoad
+4:21:17 Tab25 StartNav364 #typed
+4:21:17 Tab25 FinishNav364
+4:21:17 Tab25 PageLoad
+4:21:22 Tab25 StartNav365 #typed
+4:21:22 Tab25 FinishNav365
+4:21:22 Tab25 PageLoad
+4:21:22 Tab25 StartNav366 #typed
+4:21:22 Tab25 FinishNav366
+4:21:22 Tab25 PageLoad
+4:21:24 Tab25 StartNav367 #typed
+4:21:24 Tab25 FinishNav367
+4:21:24 Tab25 PageLoad
+4:21:29 Tab25 StartNav368 #typed
+4:21:29 Tab25 FinishNav368
+4:21:29 Tab25 PageLoad
+4:21:31 Tab25 StartNav369 #typed
+4:21:31 Tab25 FinishNav369
+4:21:31 Tab25 PageLoad
+4:21:35 Tab25 StartNav370 #typed
+4:21:35 Tab25 FinishNav370
+4:21:35 Tab25 PageLoad
+4:21:42 Tab25 StartNav371 #typed
+4:21:42 Tab25 FinishNav371
+4:21:42 Tab25 PageLoad
+4:21:47 Tab25 StartNav372 #typed
+4:21:47 Tab25 FinishNav372
+4:21:47 Tab25 PageLoad
+4:21:50 Tab25 StartNav373 #typed
+4:21:50 Tab25 FinishNav373
+4:21:50 Tab25 PageLoad
+4:21:58 Tab25 StartNav374 #typed
+4:21:58 Tab25 FinishNav374
+4:21:58 Tab25 PageLoad
+4:21:59 Tab25 StartNav375 #typed
+4:21:59 Tab25 FinishNav375
+4:21:59 Tab25 PageLoad
+4:22:01 Tab25 StartNav376 #typed
+4:22:01 Tab25 FinishNav376
+4:22:01 Tab25 PageLoad
+4:22:19 Tab25 StartNav377 #typed
+4:22:19 Tab25 FinishNav377
+4:22:19 Tab25 PageLoad
+4:22:41 Tab23 StartNav378 #typed
+4:22:41 Tab23 FinishNav378
+4:22:41 Tab23 PageLoad
+4:22:47 Tab25 StartNav379 #typed
+4:22:47 Tab25 FinishNav379
+4:22:47 Tab25 PageLoad
+4:22:48 Tab25 StartNav380 #typed
+4:22:48 Tab25 FinishNav380
+4:22:48 Tab25 PageLoad
+4:22:49 Tab25 StartNav381 #typed
+4:22:49 Tab25 FinishNav381
+4:22:49 Tab25 PageLoad
+4:22:50 Tab25 StartNav382 #typed
+4:22:50 Tab25 FinishNav382
+4:22:50 Tab25 PageLoad
+4:22:56 Tab25 StartNav383 #typed
+4:22:56 Tab25 FinishNav383
+4:22:56 Tab25 PageLoad
+4:22:58 Tab25 StartNav384 #typed
+4:22:58 Tab25 FinishNav384
+4:22:58 Tab25 PageLoad
+4:23:03 Tab25 StartNav385 #typed
+4:23:03 Tab25 FinishNav385
+4:23:03 Tab25 PageLoad
+4:23:10 Tab25 StartNav386 #typed
+4:23:10 Tab25 FinishNav386
+4:23:10 Tab25 PageLoad
+4:23:12 Tab25 StartNav387 #typed
+4:23:12 Tab25 FinishNav387
+4:23:12 Tab25 PageLoad
+4:23:43 Tab25 StartNav388 #typed
+4:23:43 Tab25 FinishNav388
+4:23:43 Tab25 PageLoad
+4:23:57 Microsoft.Shutdown.OnWindowClosing

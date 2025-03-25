@@ -1,0 +1,24 @@
+package ex03_class;
+
+public class Car {
+	
+	//필드 선언
+	int wheel = 4;
+	int door = 4;
+	int window = 4; 
+	String brand = "현대";
+	int price = 4000;
+	
+	//메서드의 선언
+	public void ride() {
+		System.out.println("달립니다.");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}
